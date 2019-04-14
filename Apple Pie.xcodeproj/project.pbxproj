@@ -12,6 +12,7 @@
 		BF7E7ECB2262538200784653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7E7EC92262538200784653 /* Main.storyboard */; };
 		BF7E7ECD2262538300784653 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF7E7ECC2262538300784653 /* Assets.xcassets */; };
 		BF7E7ED02262538300784653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF7E7ECE2262538300784653 /* LaunchScreen.storyboard */; };
+		BF7E7ED82263BE1C00784653 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF7E7ED72263BE1C00784653 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BF7E7ECC2262538300784653 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF7E7ECF2262538300784653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF7E7ED12262538300784653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF7E7ED72263BE1C00784653 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				BF7E7EC52262538200784653 /* AppDelegate.swift */,
 				BF7E7EC72262538200784653 /* ViewController.swift */,
 				BF7E7EC92262538200784653 /* Main.storyboard */,
+				BF7E7ED72263BE1C00784653 /* Game.swift */,
 				BF7E7ECC2262538300784653 /* Assets.xcassets */,
 				BF7E7ECE2262538300784653 /* LaunchScreen.storyboard */,
 				BF7E7ED12262538300784653 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF7E7EC82262538200784653 /* ViewController.swift in Sources */,
+				BF7E7ED82263BE1C00784653 /* Game.swift in Sources */,
 				BF7E7EC62262538200784653 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
